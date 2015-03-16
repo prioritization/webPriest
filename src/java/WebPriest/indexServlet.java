@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package WebPriest;
 
 import java.io.IOException;
@@ -31,7 +25,6 @@ public class indexServlet extends HttpServlet {
         response.setContentType("text/plain");  
         response.setCharacterEncoding("UTF-8");
         response.getWriter().write("Hello " + sName); 
-        
     }
     
 }
