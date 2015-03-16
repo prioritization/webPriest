@@ -27,8 +27,7 @@
 
                     success: function (output) {
 
-                        //presess the returned string
-
+                        //process the returned output
                         //here lets just add to a html element
                         $("#lblAJAXResult").text(output);
 
